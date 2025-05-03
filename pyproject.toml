@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "my-hack-assembler"
+version = "0.1.0"
+description = "Translate hack assemly code to hack binary code"
+authors = ["None"]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+venvPath = "."
+venv     = ".venv"
